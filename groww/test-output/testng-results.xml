@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-02T23:20:03 IST" name="Suite" finished-at="2021-11-02T23:21:35 IST" duration-ms="91474">
+    <groups>
+    </groups>
+    <test started-at="2021-11-02T23:20:03 IST" name="ChromeTest" finished-at="2021-11-02T23:20:33 IST" duration-ms="29927">
+      <class name="TestClass.TestLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:03 IST" name="launchBrowser" finished-at="2021-11-02T23:20:22 IST" duration-ms="18653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMobject()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:22 IST" name="createPOMobject" finished-at="2021-11-02T23:20:22 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobject -->
+        <test-method is-config="true" signature="loginToApplocation()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:22 IST" name="loginToApplocation" finished-at="2021-11-02T23:20:25 IST" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplocation -->
+        <test-method signature="verify()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:25 IST" name="verify" finished-at="2021-11-02T23:20:27 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:27 IST" name="logoutApplication" finished-at="2021-11-02T23:20:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="clearPOMobject()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:27 IST" name="clearPOMobject" finished-at="2021-11-02T23:20:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.TestLogin@1b11171f]" started-at="2021-11-02T23:20:27 IST" name="closeBrowser" finished-at="2021-11-02T23:20:33 IST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClass.TestLogin -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-11-02T23:20:33 IST" name="FirefoxTest" finished-at="2021-11-02T23:21:35 IST" duration-ms="61267">
+      <class name="TestClass.TestLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:20:33 IST" name="launchBrowser" finished-at="2021-11-02T23:21:14 IST" duration-ms="40206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMobject()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:14 IST" name="createPOMobject" finished-at="2021-11-02T23:21:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMobject -->
+        <test-method is-config="true" signature="loginToApplocation()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:14 IST" name="loginToApplocation" finished-at="2021-11-02T23:21:24 IST" duration-ms="10421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplocation -->
+        <test-method signature="verify()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:24 IST" name="verify" finished-at="2021-11-02T23:21:26 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:26 IST" name="logoutApplication" finished-at="2021-11-02T23:21:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="clearPOMobject()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:26 IST" name="clearPOMobject" finished-at="2021-11-02T23:21:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMobject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.TestLogin@60099951]" started-at="2021-11-02T23:21:26 IST" name="closeBrowser" finished-at="2021-11-02T23:21:35 IST" duration-ms="8940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestClass.TestLogin -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
